@@ -12,4 +12,11 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="exp" value="expect($VAR_ONE$).toEqual($VAR_TWO$)" description="expect().toEqual()" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR_ONE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR_TWO" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
