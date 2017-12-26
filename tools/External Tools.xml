@@ -1,0 +1,9 @@
+<toolSet name="External Tools">
+  <tool name="Prettify" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="true" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="prettier" />
+      <option name="PARAMETERS" value="-l silent --single-quote --no-semi --write src/**/*.js" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$/node_modules/.bin/" />
+    </exec>
+  </tool>
+</toolSet>
