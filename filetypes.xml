@@ -1,9 +1,7 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
-      <removed_mapping ext="js" type="JavaScript" />
       <mapping ext="properties" type="PLAIN_TEXT" />
-      <mapping ext="js" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
