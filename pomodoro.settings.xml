@@ -1,0 +1,6 @@
+<application>
+  <component name="PomodoroSettings">
+    <option name="showToolWindow" value="true" />
+    <option name="longBreakDuration" value="15" />
+  </component>
+</application>
