@@ -3,10 +3,9 @@
     <extensionMap>
       <mapping ext="klib" type="ARCHIVE" />
       <mapping pattern=".prettierignore" type="PLAIN_TEXT" />
-      <mapping pattern="AutoScrollUserCardSlim" type="PLAIN_TEXT" />
       <mapping pattern="userCredential" type="PLAIN_TEXT" />
-      <mapping pattern="makefile" type="PLAIN_TEXT" />
-      <mapping pattern="Makefile" type="PLAIN_TEXT" />
+      <mapping pattern="AutoScrollUserCardSlim" type="PLAIN_TEXT" />
+      <removed_mapping pattern="Makefile" approved="true" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
