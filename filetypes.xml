@@ -5,6 +5,8 @@
       <mapping pattern=".prettierignore" type="PLAIN_TEXT" />
       <mapping pattern="AutoScrollUserCardSlim" type="PLAIN_TEXT" />
       <mapping pattern="userCredential" type="PLAIN_TEXT" />
+      <mapping pattern="makefile" type="PLAIN_TEXT" />
+      <mapping pattern="Makefile" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
