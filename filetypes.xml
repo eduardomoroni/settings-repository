@@ -3,14 +3,13 @@
     <extensionMap>
       <mapping ext="klib" type="ARCHIVE" />
       <mapping pattern="delete_me" type="PLAIN_TEXT" />
-      <mapping pattern="pre-install" type="PLAIN_TEXT" />
-      <mapping pattern=".env" type="PLAIN_TEXT" />
       <mapping pattern=".browserslistrc" type="PLAIN_TEXT" />
       <mapping pattern=".prettierignore" type="PLAIN_TEXT" />
-      <mapping pattern="AutoScrollUserCardSlim" type="PLAIN_TEXT" />
+      <mapping pattern="pre-install" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping pattern="scripts/pre-install" type="PLAIN_TEXT" />
       <mapping pattern="userCredential" type="PLAIN_TEXT" />
+      <mapping pattern="AutoScrollUserCardSlim" type="PLAIN_TEXT" />
       <removed_mapping pattern="Makefile" approved="true" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
