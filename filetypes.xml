@@ -10,6 +10,7 @@
       <mapping pattern="scripts/pre-install" type="PLAIN_TEXT" />
       <mapping pattern="userCredential" type="PLAIN_TEXT" />
       <mapping pattern="AutoScrollUserCardSlim" type="PLAIN_TEXT" />
+      <mapping pattern="bitbucket_key" type="PLAIN_TEXT" />
       <removed_mapping pattern="Makefile" approved="true" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
