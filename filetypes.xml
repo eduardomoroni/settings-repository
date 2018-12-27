@@ -3,6 +3,7 @@
     <extensionMap>
       <mapping ext="klib" type="ARCHIVE" />
       <mapping pattern="delete_me" type="PLAIN_TEXT" />
+      <mapping pattern=".huskyrc" type="PLAIN_TEXT" />
       <mapping pattern=".nvmrc" type="PLAIN_TEXT" />
       <mapping pattern=".prettierignore" type="PLAIN_TEXT" />
       <mapping pattern="pre-install" type="PLAIN_TEXT" />
