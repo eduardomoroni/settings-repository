@@ -14,7 +14,7 @@
           <IdeaActionID>CopyReference</IdeaActionID>
           <ShortCut>'⌥⇧⌘C'</ShortCut>
           <Description>Copy Relative Path</Description>
-          <Count>16</Count>
+          <Count>18</Count>
         </Item>
       </Statistic>
       <Statistic Action="Declaration">
@@ -22,7 +22,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'⌘B' or '⌘Button1 Click' or 'Button2 Click'</ShortCut>
           <Description>Declaration</Description>
-          <Count>82</Count>
+          <Count>83</Count>
         </Item>
       </Statistic>
       <Statistic Action="Evaluate Expression...">
@@ -95,6 +95,14 @@
           <ShortCut>'⌘F2'</ShortCut>
           <Description>Stop '&lt;AgentsStatusModal /&gt;.fetches agents live info data and pass to dumb component'</Description>
           <Count>6</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Stop '&lt;TransferScreen /&gt;.calls fetchAgentsLiveInfo and passes the data to &lt;Users /&gt;'">
+        <Item>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'⌘F2'</ShortCut>
+          <Description>Stop '&lt;TransferScreen /&gt;.calls fetchAgentsLiveInfo and passes the data to &lt;Users /&gt;'</Description>
+          <Count>1</Count>
         </Item>
       </Statistic>
       <Statistic Action="Stop 'Rerun Failed Tests'">
