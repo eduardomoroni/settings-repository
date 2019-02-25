@@ -22,7 +22,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'⌘B' or '⌘Button1 Click' or 'Button2 Click'</ShortCut>
           <Description>Declaration</Description>
-          <Count>85</Count>
+          <Count>86</Count>
         </Item>
       </Statistic>
       <Statistic Action="Evaluate Expression...">
@@ -65,6 +65,14 @@
           <Count>3</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Rerun '&lt;TransferScreen /&gt;.on update calls API and passes data to &lt;Users /&gt;'">
+        <Item>
+          <IdeaActionID>Rerun</IdeaActionID>
+          <ShortCut>'⌘R'</ShortCut>
+          <Description>Rerun '&lt;TransferScreen /&gt;.on update calls API and passes data to &lt;Users /&gt;'</Description>
+          <Count>2</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Rerun 'Rerun Failed Tests'">
         <Item>
           <IdeaActionID>Rerun</IdeaActionID>
@@ -103,6 +111,14 @@
           <ShortCut>'⌘F2'</ShortCut>
           <Description>Stop '&lt;TransferScreen /&gt;.calls fetchAgentsLiveInfo and passes the data to &lt;Users /&gt;'</Description>
           <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Stop '&lt;TransferScreen /&gt;.on update calls API and passes data to &lt;Users /&gt;'">
+        <Item>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'⌘F2'</ShortCut>
+          <Description>Stop '&lt;TransferScreen /&gt;.on update calls API and passes data to &lt;Users /&gt;'</Description>
+          <Count>3</Count>
         </Item>
       </Statistic>
       <Statistic Action="Stop 'Rerun Failed Tests'">
