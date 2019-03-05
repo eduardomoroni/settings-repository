@@ -2,19 +2,18 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping ext="klib" type="ARCHIVE" />
-      <mapping pattern="delete_me" type="PLAIN_TEXT" />
-      <mapping pattern="Analytics" type="PLAIN_TEXT" />
-      <mapping pattern=".huskyrc" type="PLAIN_TEXT" />
-      <mapping pattern=".nvmrc" type="PLAIN_TEXT" />
-      <mapping pattern=".prettierignore" type="PLAIN_TEXT" />
-      <mapping pattern="pre-install" type="PLAIN_TEXT" />
-      <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
-      <mapping pattern=".browserslistrc" type="PLAIN_TEXT" />
-      <mapping pattern="logrocket" type="PLAIN_TEXT" />
       <mapping pattern="scripts/pre-install" type="PLAIN_TEXT" />
-      <mapping pattern="userCredential" type="PLAIN_TEXT" />
-      <mapping pattern="AutoScrollUserCardSlim" type="PLAIN_TEXT" />
+      <mapping pattern="delete_me" type="PLAIN_TEXT" />
       <mapping pattern="bitbucket_key" type="PLAIN_TEXT" />
+      <mapping pattern="pre-install" type="PLAIN_TEXT" />
+      <mapping pattern="Analytics" type="PLAIN_TEXT" />
+      <mapping pattern=".nvmrc" type="PLAIN_TEXT" />
+      <mapping pattern="AutoScrollUserCardSlim" type="PLAIN_TEXT" />
+      <mapping pattern=".browserslistrc" type="PLAIN_TEXT" />
+      <mapping pattern=".huskyrc" type="PLAIN_TEXT" />
+      <mapping pattern="logrocket" type="PLAIN_TEXT" />
+      <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
+      <mapping pattern="userCredential" type="PLAIN_TEXT" />
       <mapping ext="pub" type="PLAIN_TEXT" />
       <mapping ext="0-full" type="PLAIN_TEXT" />
       <mapping ext="key" type="PLAIN_TEXT" />
