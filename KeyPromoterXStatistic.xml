@@ -6,7 +6,7 @@
           <IdeaActionID>CopyReference</IdeaActionID>
           <ShortCut>'⌥⇧⌘C'</ShortCut>
           <Description>Copy Relative Path</Description>
-          <Count>4</Count>
+          <Count>6</Count>
         </Item>
       </Statistic>
       <Statistic Action="Declaration">
@@ -14,7 +14,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'⌘B'</ShortCut>
           <Description>Declaration</Description>
-          <Count>40</Count>
+          <Count>44</Count>
         </Item>
       </Statistic>
       <Statistic Action="Structure">
