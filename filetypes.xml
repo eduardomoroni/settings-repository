@@ -4,13 +4,14 @@
       <mapping ext="klib" type="ARCHIVE" />
       <mapping pattern="scripts/pre-install" type="PLAIN_TEXT" />
       <mapping pattern="delete_me" type="PLAIN_TEXT" />
+      <mapping pattern="AutoScrollUserCardSlim" type="PLAIN_TEXT" />
       <mapping pattern="bitbucket_key" type="PLAIN_TEXT" />
       <mapping pattern="pre-install" type="PLAIN_TEXT" />
       <mapping pattern="Analytics" type="PLAIN_TEXT" />
       <mapping pattern=".nvmrc" type="PLAIN_TEXT" />
-      <mapping pattern="AutoScrollUserCardSlim" type="PLAIN_TEXT" />
       <mapping pattern=".browserslistrc" type="PLAIN_TEXT" />
       <mapping pattern=".huskyrc" type="PLAIN_TEXT" />
+      <mapping pattern="CHANGELOG" type="PLAIN_TEXT" />
       <mapping pattern="logrocket" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping pattern="userCredential" type="PLAIN_TEXT" />
