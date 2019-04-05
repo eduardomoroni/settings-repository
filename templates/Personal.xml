@@ -1,51 +1,6 @@
 <templateSet group="Personal">
-  <template name="clog" value="console.log('$VAR$', $VAR$)" description="Console log" toReformat="true" toShortenFQNames="true">
-    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="req" value="const $VAR$ = require('$MODULE$')" description="require" toReformat="false" toShortenFQNames="true">
-    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="MODULE" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="exp" value="expect($VAR_ONE$).toEqual($VAR_TWO$)" description="expect().toEqual()" toReformat="false" toShortenFQNames="true">
-    <variable name="VAR_ONE" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="VAR_TWO" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="const" value="const $VAR$ = $VALUE$" description="const foo = 'bar'" toReformat="false" toShortenFQNames="true">
-    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="reactContainer" value="import React, { Component } from 'react'&#10;import { View } from 'react-native'&#10;import { connect } from 'react-redux'&#10;import PropTypes from 'prop-types'&#10;&#10;class $FILE_NAME$Container extends Component {&#10;  static propTypes = {&#10;    foo: PropTypes.func.isRequired&#10;  }&#10;&#10;  render () {&#10;    return (&#10;      &lt;View $END$ /&gt;&#10;    )&#10;  }&#10;}&#10;&#10;const mapStateToProps = state =&gt; ({&#10;})&#10;&#10;const mapDispatchToProps = dispatch =&gt; ({&#10;})&#10;&#10;export const $FILE_NAME$ = connect(mapStateToProps, mapDispatchToProps)($FILE_NAME$Container)&#10;" description="Create a react container" toReformat="true" toShortenFQNames="true">
-    <variable name="FILE_NAME" expression="" defaultValue="capitalize(fileNameWithoutExtension())" alwaysStopAt="true" />
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-      <option name="JSX_HTML" value="false" />
-    </context>
-  </template>
-  <template name="reactComponent" value="import React, { Component } from 'react'&#10;import { View } from 'react-native'&#10;import PropTypes from 'prop-types'&#10;&#10;export class $FILE_NAME$ extends Component {&#10;  static propTypes = {&#10;    foo: PropTypes.func.isRequired&#10;  }&#10;&#10;  render () {&#10;    return (&#10;      &lt;View $END$ /&gt;&#10;    )&#10;  }&#10;}&#10;" description="Create React Component" toReformat="true" toShortenFQNames="true">
-    <variable name="FILE_NAME" expression="" defaultValue="capitalize(fileNameWithoutExtension())" alwaysStopAt="true" />
-    <context>
-      <option name="JS_STATEMENT" value="true" />
-    </context>
-  </template>
-  <template name="reactFunctionalComponent" value="import React from 'react'&#10;import PropTypes from 'prop-types'&#10;import { View } from 'react-native'&#10;&#10;export const $FILE_NAME$ = props =&gt; (&#10;  &lt;View&gt;$END$&lt;/View&gt;&#10;)&#10;&#10;$FILE_NAME$.propTypes = {&#10;  foo: PropTypes.func.isRequired&#10;}&#10;" description="Create React Functional Component" toReformat="true" toShortenFQNames="true">
-    <variable name="FILE_NAME" expression="" defaultValue="capitalize(fileNameWithoutExtension())" alwaysStopAt="true" />
-    <context>
-      <option name="JS_STATEMENT" value="true" />
-    </context>
-  </template>
-  <template name="flows" value="// @flow strict&#10;" description="// @flow strict" toReformat="false" toShortenFQNames="true">
+  <template name="clog" value="console.log(JSON.stringify($NAME$));" description="Console.log" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
