@@ -14,7 +14,7 @@
           <IdeaActionID>CopyReference</IdeaActionID>
           <ShortCut>'⌥⇧⌘C'</ShortCut>
           <Description>Copy Relative Path</Description>
-          <Count>28</Count>
+          <Count>38</Count>
         </Item>
       </Statistic>
       <Statistic Action="Declaration">
