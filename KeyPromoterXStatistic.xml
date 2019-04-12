@@ -22,7 +22,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'⌘B'</ShortCut>
           <Description>Declaration</Description>
-          <Count>316</Count>
+          <Count>319</Count>
         </Item>
       </Statistic>
       <Statistic Action="Hide All Windows">
@@ -94,6 +94,14 @@
           <IdeaActionID>ActivateVersionControlToolWindow</IdeaActionID>
           <ShortCut>'⌘9' or '⇧⌘9'</ShortCut>
           <Description>Version Control</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Vim Emulator">
+        <Item>
+          <IdeaActionID>VimPluginToggle</IdeaActionID>
+          <ShortCut>'⌥⌘V'</ShortCut>
+          <Description>Vim Emulator</Description>
           <Count>1</Count>
         </Item>
       </Statistic>
