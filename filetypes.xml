@@ -1,13 +1,13 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
-      <mapping ext="klib" type="ARCHIVE" />
       <mapping pattern="scripts/pre-install" type="PLAIN_TEXT" />
       <mapping pattern="delete_me" type="PLAIN_TEXT" />
       <mapping pattern="AutoScrollUserCardSlim" type="PLAIN_TEXT" />
       <mapping pattern="bitbucket_key" type="PLAIN_TEXT" />
       <mapping pattern="pre-install" type="PLAIN_TEXT" />
       <mapping pattern="Analytics" type="PLAIN_TEXT" />
+      <mapping pattern="UserCardTimestamp" type="PLAIN_TEXT" />
       <mapping pattern=".nvmrc" type="PLAIN_TEXT" />
       <mapping pattern=".browserslistrc" type="PLAIN_TEXT" />
       <mapping pattern=".huskyrc" type="PLAIN_TEXT" />
