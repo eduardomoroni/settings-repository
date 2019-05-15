@@ -241,6 +241,14 @@
           <Count>8</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Run 'HubMessage reducer handler.actions.upda…ail when systemMessage contains an email'">
+        <Item>
+          <IdeaActionID>Run</IdeaActionID>
+          <ShortCut>'⌃R'</ShortCut>
+          <Description>Run 'HubMessage reducer handler.actions.upda…ail when systemMessage contains an email'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Run 'MyTestApplication'">
         <Item>
           <IdeaActionID>Run</IdeaActionID>
@@ -326,7 +334,7 @@
           <IdeaActionID>Stop</IdeaActionID>
           <ShortCut>'⌘F2'</ShortCut>
           <Description>Stop 'HubMessage reducer handler.actions.updates visitorEmail when systemMessage contains an email'</Description>
-          <Count>3</Count>
+          <Count>4</Count>
         </Item>
       </Statistic>
       <Statistic Action="Stop 'MyTestApplication'">
