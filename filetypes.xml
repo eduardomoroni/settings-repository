@@ -5,6 +5,7 @@
       <mapping pattern="delete_me" type="PLAIN_TEXT" />
       <mapping pattern="AutoScrollUserCardSlim" type="PLAIN_TEXT" />
       <mapping pattern="bitbucket_key" type="PLAIN_TEXT" />
+      <mapping pattern=".gcloudignore" type="PLAIN_TEXT" />
       <mapping pattern="pre-install" type="PLAIN_TEXT" />
       <mapping pattern="Analytics" type="PLAIN_TEXT" />
       <mapping pattern="UserCardTimestamp" type="PLAIN_TEXT" />
