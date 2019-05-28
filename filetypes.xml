@@ -1,21 +1,22 @@
 <application>
   <component name="FileTypeManager" version="17">
+    <ignoreFiles list="*.hprof;*.pyc;*.pyo;*.rbc;*.yarb;*~;.DS_Store;.git;.hg;.svn;CVS;__pycache__;_svn;node_modules;vssver.scc;vssver2.scc;" />
     <extensionMap>
-      <mapping pattern="scripts/pre-install" type="PLAIN_TEXT" />
-      <mapping pattern="delete_me" type="PLAIN_TEXT" />
       <mapping pattern="AutoScrollUserCardSlim" type="PLAIN_TEXT" />
-      <mapping pattern="bitbucket_key" type="PLAIN_TEXT" />
-      <mapping pattern=".gcloudignore" type="PLAIN_TEXT" />
-      <mapping pattern="pre-install" type="PLAIN_TEXT" />
-      <mapping pattern="Analytics" type="PLAIN_TEXT" />
-      <mapping pattern="UserCardTimestamp" type="PLAIN_TEXT" />
-      <mapping pattern=".nvmrc" type="PLAIN_TEXT" />
-      <mapping pattern=".browserslistrc" type="PLAIN_TEXT" />
-      <mapping pattern=".huskyrc" type="PLAIN_TEXT" />
-      <mapping pattern="CHANGELOG" type="PLAIN_TEXT" />
-      <mapping pattern="logrocket" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping pattern="userCredential" type="PLAIN_TEXT" />
+      <mapping pattern="delete_me" type="PLAIN_TEXT" />
+      <mapping pattern="UserCardTimestamp" type="PLAIN_TEXT" />
+      <mapping pattern=".gcloudignore" type="PLAIN_TEXT" />
+      <mapping pattern="logrocket" type="PLAIN_TEXT" />
+      <mapping pattern="CHANGELOG" type="PLAIN_TEXT" />
+      <mapping pattern="scripts/pre-install" type="PLAIN_TEXT" />
+      <mapping pattern="Analytics" type="PLAIN_TEXT" />
+      <mapping pattern=".browserslistrc" type="PLAIN_TEXT" />
+      <mapping pattern="bitbucket_key" type="PLAIN_TEXT" />
+      <mapping pattern=".nvmrc" type="PLAIN_TEXT" />
+      <mapping pattern=".huskyrc" type="PLAIN_TEXT" />
+      <mapping pattern="pre-install" type="PLAIN_TEXT" />
       <mapping ext="pub" type="PLAIN_TEXT" />
       <mapping ext="0-full" type="PLAIN_TEXT" />
       <mapping ext="key" type="PLAIN_TEXT" />
